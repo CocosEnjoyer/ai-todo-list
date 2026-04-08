@@ -99,7 +99,7 @@ docker-compose down
 
 ### 3.5 Локальный запуск (без Docker)
 
-Нужно запустить и Backend и Frontend,
+Клонируем репозиторий, создаём .env файл (каким он должен быть написано выше и в .env.example), после этого нужно запустить и Backend и Frontend:
 
 ### Запуск Backend:
 
