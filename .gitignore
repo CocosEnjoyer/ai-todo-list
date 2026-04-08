@@ -1,0 +1,16 @@
+# Зависимости
+node_modules/
+venv/
+__pycache__/
+
+# Файлы окружения
+.env
+.env.local
+
+# Логи и временные файлы
+*.log
+.DS_Store
+
+# Сборки (если генерируются)
+dist/
+build/

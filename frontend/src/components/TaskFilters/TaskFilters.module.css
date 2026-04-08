@@ -1,0 +1,54 @@
+.filters-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.filters-bar input,
+.filters-bar select {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.filters-bar input {
+  flex: 2;
+  min-width: 200px;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.filters-bar button {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.filters-bar button:hover {
+  background: #5a6268;
+}
+
+@media (max-width: 1140px) {
+  .filters-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filters-bar input,
+  .filters-bar select,
+  .filters-bar button {
+    width: 100%;
+  }
+
+  .filters-bar button {
+    margin-top: 0.5rem;
+  }
+}
